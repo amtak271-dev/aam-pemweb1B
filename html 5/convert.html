@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Contoh Penggunaan Elemen Form</title>
+</head>
+<body>
+    <form action="html.html" method="post" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td>Nama :</td>
+                <td><input type="text" name="Nama" required autofocus></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir :</td>
+                <td><input type="date" name="TanggalLahir" min="1900-03-17" max="1904-05-17" required></td>
+            </tr>
+            <tr>
+                <td>Email :</td>
+                <td><input type="email" name="Email" placeholder="domain@domain.com" required></td>
+            </tr>
+            <tr>
+                <td>Alamat Blog/Web :</td>
+                <td><input type="url" name="Url" placeholder="http://www.namadomain.com" required></td>
+            </tr>
+            <tr>
+                <td>Jarak Rumah - Kampus :</td>
+                <td><input type="range" name="jarak" id="slider" value="10" min="0" max="100" step="10" required></td>
+            </tr>
+            <tr>
+                <td>Warna Kesukaan :</td>
+                <td><input type="color" name="Warna" value="#ffffff" required></td>
+            </tr>
+            <tr>
+                <td>Pencarian :</td>
+                <td><input type="search" name="cari" placeholder="cari" required></td>
+            </tr>
+            <tr>
+                <td>Hoby :</td>
+                <td>
+                    <input type="text" name="Hobi" placeholder="Hobi" list="hobby" required>
+                    <datalist id="hobby">
+                        <option value="Minum Air Putih">
+                        <option value="Tidur">
+                        <option value="Membaca">
+                        <option value="Bermain">
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>Foto :</td>
+                <td><input type="file" name="upload" accept=".jpg,.jpeg" required></td>
+            </tr>
+            <tr>
+                <td>Video :</td>
+                <td>
+                    <video width="375" height="280" controls poster="poster.jpg">
+                        <source src="contoh.mp4" type="video/mp4">
+                        Browser Anda tidak mendukung elemen video.
+                    </video>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="simpan" value="Simpan"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
