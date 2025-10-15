@@ -1,0 +1,16 @@
+/* b_style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7faff;
+}
+
+h2 {
+  color: #003366;
+}
+
+article {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 15px;
+}

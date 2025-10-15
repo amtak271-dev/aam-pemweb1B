@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Pertama Saya - Internal CSS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e4eaf3;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #fff;
+      text-align: center;
+      padding: 10px;
+      border-bottom: 2px solid #ccc;
+    }
+    h2 { color: #003366; }
+    nav {
+      background-color: #cde1ff;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      text-decoration: none;
+      color: black;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .banner {
+      text-align: center;
+      background-color: #b2d8ff;
+      padding: 10px;
+    }
+    .container {
+      display: flex;
+      justify-content: space-between;
+      margin: 10px;
+    }
+    .content, .sidebar {
+      background-color: #ffffff4a;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+    .content { width: 70%; }
+    .sidebar { width: 25%; }
+    h3 { color: #004080; }
+    p { color: #333; }
+    footer {
+      background-color: #cde1ff;
+      text-align: center;
+      padding: 10px;
+      border-top: 2px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>PESONA INDONESIA</h2>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Berita</a>
+    <a href="#">Tentang Kami</a>
+  </nav>
+
+  <div class="banner">
+    <img src="sawah.jpg" alt="Banner" width="100%">
+  </div>
+
+  <div class="container">
+    <div class="Laut">
+        <img src="laut1.jpg" alt="Laut" width="100%">
+      <h3>Laut</h3>
+      <p><B>Laut</B> adalah tempat hewan laut berkembang.</p>
+    </div>
+
+    <div class="Hutan">
+        <img src="hutan.jpg" alt="Hutan" width="100%">
+      <h3>hutan</h3>
+      <p><B>Hutan</B> adalah tempat hewan darat berkembang.</p>
+    </div>
+
+    <div class="Gunung">
+        <img src="gunung.jpeg" alt="Gunung" width="100%">
+      <h3>Gunung</h3>
+      <p><B>Gunung</B> bromo terletak dijawa timur.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>Copyright by Nama: Muhammad Amrulloh | 14124020</p>
+  </footer>
+</body>
+</html>
